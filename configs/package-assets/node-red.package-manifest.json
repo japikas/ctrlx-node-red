@@ -1,0 +1,51 @@
+{
+    "id": "node-red",
+    "version": "1.0.0",
+    "services": {
+	"proxyMapping": [
+	    {
+		"name": "node-red.web",
+		"url": "/node-red",
+		"binding": ":1883"
+	    }
+	]
+    },    
+    "menus": {
+	"sidebar": [
+	    {
+		"id": "node-red",
+		"title": "Node-Red",
+		"permissions": [],
+		"items": [
+		    {
+			"id": "node-red-ui",
+			"title": "Editor",
+			"link": "http://${hostname}:1880/",
+			"target":"node-red-ui",
+			"permissions": []
+		    }
+		]
+	    }
+	],
+	"overview": [
+	    {
+		"id": "node-red",
+		"title": "Node-Red",
+		"description": "Node-Red",
+		"link": "http://${hostname}:1880/"
+ 	    }
+	]
+    },    
+    "configuration": {
+        "appDirectories": [
+            {
+                "name": "node-red",
+                "description": "Node-Red",
+                "icon": "bosch-ic-directory",
+                "scopes": [],
+                "copyOnLoad": true,
+                "writeprotected": false
+            }
+        ]
+    }
+} 
