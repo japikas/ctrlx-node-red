@@ -1,2 +1,2 @@
 # ctrlx-node-red
-Node-RED
+Node-RED for ctrlX
