@@ -13,6 +13,9 @@ Following additional packages are installed:
 - node-red-contrib-opcua
 - @chirpstack/node-red-contrib-chirpstack
 
+>[!NOTE]
+> Missing integration to ctrlX DataLayer
+
 ## Support
 
 Commercially maintained and supported version of Node-RED is available in the ctrlX Store, published by Bosch Rexroth:
