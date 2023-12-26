@@ -7,6 +7,9 @@ This is non-commercial hobby project.
 
 Derived from [Node-Red](https://snapcraft.io/node-red) in [snapcraft.io](https://snapcraft.io/).
 
+>[!WARNING]
+> The project implements no security / user authentication at the moment.
+
 Following additional packages are installed:
 - node-red-dasboard
 - node-red-node-base64
