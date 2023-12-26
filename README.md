@@ -17,7 +17,7 @@ Following additional packages are installed:
 - @chirpstack/node-red-contrib-chirpstack
 
 >[!NOTE]
-> Missing integration to ctrlX DataLayer
+> Integration to ctrlX DataLayer is not supported yet.
 
 ## Support
 
