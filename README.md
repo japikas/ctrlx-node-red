@@ -9,6 +9,7 @@ Derived from [Node-Red](https://snapcraft.io/node-red) in [snapcraft.io](https:/
 
 Following additional packages are installed:
 - node-red-dasboard
+- node-red-node-base64
 - node-red-contrib-opcua
 - @chirpstack/node-red-contrib-chirpstack
 
