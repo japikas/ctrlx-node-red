@@ -3,6 +3,8 @@
 
 This is non-commercial hobby project.
 
+Status: Works for me.
+
 ## Node-Red
 
 Derived from [Node-Red](https://snapcraft.io/node-red) in [snapcraft.io](https://snapcraft.io/).
