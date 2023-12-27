@@ -6,7 +6,7 @@
 	    {
 		"name": "node-red.web",
 		"url": "/node-red",
-		"binding": ":1883"
+		"binding": ":1880"
 	    }
 	]
     },    
@@ -14,16 +14,23 @@
 	"sidebar": [
 	    {
 		"id": "node-red",
-		"title": "Node-Red",
+		"title": "NODE-RED",
 		"permissions": [],
 		"items": [
 		    {
 			"id": "node-red-ui",
 			"title": "Editor",
-			"link": "http://${hostname}:1880/",
+			"link": "http://${hostname}:1880",
 			"target":"node-red-ui",
 			"permissions": []
-		    }
+		    },
+		    {
+			"id": "node-red-ui",
+			"title": "Dashboard",
+			"link": "http://${hostname}:1880",
+			"target":"node-red-ui",
+			"permissions": []
+		    }		    
 		]
 	    }
 	],
@@ -32,7 +39,7 @@
 		"id": "node-red",
 		"title": "Node-Red",
 		"description": "Node-Red",
-		"link": "http://${hostname}:1880/"
+		"link": "http://${hostname}:1880"
  	    }
 	]
     },    
