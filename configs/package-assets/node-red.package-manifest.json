@@ -27,7 +27,7 @@
 		    {
 			"id": "node-red-ui",
 			"title": "Dashboard",
-			"link": "http://${hostname}:1880",
+			"link": "http://${hostname}:1880/ui",
 			"target":"node-red-ui",
 			"permissions": []
 		    }		    
